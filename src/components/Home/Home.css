@@ -1,0 +1,87 @@
+.home {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.h-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.h-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-name >:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.h-name >:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.h-name >:nth-child(3){
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.h-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.h-icons > *{
+    transform: scale(0.5);
+}
+
+.h-icons > *:hover{
+    cursor: pointer;
+}
+
+.h-right{
+    flex: 1;
+    position: relative;
+}
+
+.h-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.h-right >:nth-child(1){
+    transform: scale(0.83);
+    left: 2.2%;
+    top: -13.4%;
+}
+
+.h-right >:nth-child(2){
+    transform: scale(0.77);
+    left: 1.2rem;
+    top: -5.8rem;
+}
+
+.h-right >:nth-child(3){
+    transform: scale(0.89);
+    left: 25%;
+    top: -8.6rem;
+    border-radius: 0 0 105px 0;
+}
+
+.h-right >:nth-child(4){
+    transform: scale(0.79);
+    left: 0%;
+    top: -4.6rem;
+    border-radius: 0 0 105px 0;
+}
