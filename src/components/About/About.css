@@ -50,11 +50,10 @@ strong{
 .a-button{
     width: 10rem;
     height: 3rem;
-    margin-left: 175px;
+    margin-top: 20px;
 }
 
 .cards{
-    /* display: flex; */
     position: relative;
 }
 

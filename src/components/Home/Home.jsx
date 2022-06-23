@@ -21,13 +21,13 @@ const Home = () => {
                 <span>A Front End developer passionate about creating interactive applications and experiences on the web. </span>
             </div>
             <div className="h-icons">
-                <a href="https://github.com/AduetDabral1">
+                <a href="https://github.com/AduetDabral1" target="_blank">
                     <img src={GitHub} alt="GitHub" />
                 </a>
-                <a href="https://www.linkedin.com/in/aduet-dabral-0289851a1/">
+                <a href="https://www.linkedin.com/in/aduet-dabral-0289851a1/" target="_blank">
                     <img src={LinkedIn} alt="LinkedIn" />                    
                 </a>
-                <a href="https://www.instagram.com/aduet.dabral/">
+                <a href="https://www.instagram.com/aduet.dabral/" target="_blank">
                     <img src={Instagram} alt="Instagram" />
                 </a>
             </div>
