@@ -1,4 +1,4 @@
-h2{
+#c-heading{
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -50,7 +50,7 @@ h2{
     box-shadow: var(--boxShadow);
 }
 
-a{
+.cert a{
     text-decoration: none;
     text-align: center;
 }
@@ -67,7 +67,7 @@ a{
     transform: scale(0.45);
 }
 
-span{
+.cert > span{
     color: rgb(237, 188, 55);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

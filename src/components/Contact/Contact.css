@@ -1,0 +1,69 @@
+.contact{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.c-left >:nth-child(1){
+    color: var(--black);
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c-left >:nth-child(2){
+    margin-top: 23px;
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.c-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    margin-left: 3rem;
+}
+
+.c-right > form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.c-right .user {
+    width: 30rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+textarea{
+    height: 12rem !important;
+    width: 30rem !important;
+}
+
+.c-blur{
+    top: 13rem;
+    left: -13rem;
+}
+
+.c-blur2{
+    top: -4rem;
+    left: 20rem;
+}

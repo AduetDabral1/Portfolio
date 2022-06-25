@@ -35,7 +35,7 @@
     list-style-type: none;
 }
 
-.n-list > ul > li:hover{
+.n-list  ul  li:hover{
     cursor: pointer;
     color: var(--orange)
 }
@@ -44,6 +44,14 @@
     flex: 2;
 }
 
-.n-button:hover{
+@media screen and (max-width : 480px) {
+    .n-list{
+        display: none;
+    }
 
+    .n-button{
+        display: none;
+    }
+    
 }
+

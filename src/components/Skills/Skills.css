@@ -24,7 +24,7 @@
     position: absolute;
 }
 
-img{
+.secCircle > img{
     transform: scale(0.45);
     border-radius: 100%;
 }
