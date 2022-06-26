@@ -14,7 +14,7 @@ const About = () => {
  const transition = {duration : 2, type : 'spring'}
 
   return (
-   <div className="about" id='about'>
+   <div className="about" id='About'>
       <div className="left">
             <span style={{
                color : darkMode? "white":"black"}}>  There are three responses to a  </span>

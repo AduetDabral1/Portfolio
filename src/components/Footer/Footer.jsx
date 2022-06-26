@@ -17,9 +17,15 @@ const Footer = () => {
             <span>dabral.aduet@gmail.com</span>
 
         <div className="f-icons">
+        <a href="https://www.instagram.com/aduet.dabral/" target="_blank">
             <Insta color="white" size="3rem"/>
+        </a>
+            <a href="https://www.linkedin.com/in/aduet-dabral-0289851a1/" target="_blank">
             <LinkedIn color="white" size="3rem"/>
+            </a>
+            <a href="https://github.com/AduetDabral1" target="_blank">
             <GitHub color="white" size="3rem"/>
+            </a>
         </div>
         </div>
     </div>

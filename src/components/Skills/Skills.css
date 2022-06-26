@@ -5,8 +5,45 @@
     margin-top: 4rem;
 }
 
+.s-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+}
+
+.s-left >:nth-child(1){
+    color: var(--gray);
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.s-left >:nth-child(2){
+    color: var(--yellow);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.s-left >:nth-child(3){
+    color: var(--gray);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.s-left >:nth-child(4){
+    color: var(--yellow);
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .s-right{
     position: relative;
+    flex: 1;
 }
 
 .mainCircle{
@@ -103,4 +140,10 @@
     background: #ffd34d;
     left: 18rem;
     top: 8rem;
+}
+
+.intern > :nth-child(1){
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: normal;
 }

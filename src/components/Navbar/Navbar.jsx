@@ -16,22 +16,24 @@ const Navbar = () => {
         <div className="n-right">
             <div className="n-list">
                 <ul>
-                    <Link spy={true} to="navbar" smooth={true} activeClass="activeClass">
+                    <Link spy={true} to="NavBar" smooth={true} activeClass="activeClass">
                     <li>Home</li>
                     </Link>
-                    <Link spy={true} to="about" smooth={true} activeClass="activeClass">
+                    <Link spy={true} to="About" smooth={true} activeClass="activeClass">
                     <li>About</li>
                     </Link>
                     <Link spy={true} to="Portfolio" smooth={true} activeClass="activeClass">
                     <li>Portfolio</li>
                     </Link>
-                    <Link spy={true} to="skills" smooth={true} activeClass="activeClass">
+                    <Link spy={true} to="Skills" smooth={true} activeClass="activeClass">
                     <li>Skills</li>
                     </Link>
                     <Toggle/>
                 </ul>
             </div>
+            <Link spy={true} to="contact" smooth={true} activeClass="activeClass">
             <button className="button">Contact Me</button>
+            </Link>
         </div>
     </nav>
   )

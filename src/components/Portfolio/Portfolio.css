@@ -30,12 +30,45 @@
     width: 20rem;
 }
 
-.portfolio img{
-    width: 19rem;
+.projects img{
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
     transform: scale(0.6);
     filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
     border-radius: 19px;
 }
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 44vw;
+    border: 2px solid goldenrod;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+
+.projects span:nth-of-type(1){
+    color: var(--orange);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects span:nth-of-type(2){
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
 
 

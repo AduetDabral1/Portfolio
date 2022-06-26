@@ -68,6 +68,10 @@
     justify-content: center;
 }
 
+
+.testimonial .swiper-pagination-bullet{
+    background : #00ff04;
+}
 .testimonial .swiper-pagination-bullet-active{
     background : var(--orange);
 }
