@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7e7ef59.css",
+    "main.js": "/static/js/main.f962c8e7.js",
+    "static/media/image2.png": "/static/media/image2.aa1935438190f61cfb24.png",
+    "static/media/jobscheduler.png": "/static/media/jobscheduler.ea991e70acaa1eb258ec.png",
+    "static/media/textutils.png": "/static/media/textutils.dde7f16578c4f83675d8.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.7bcba107aa677b6d128a.png",
+    "static/media/react.png": "/static/media/react.642c34f32083b2b66380.png",
+    "static/media/Aduet Dabral.pdf": "/static/media/Aduet Dabral.eeed39dd5c89b63346c2.pdf",
+    "static/media/portfolio.png": "/static/media/portfolio.a1842d7ba1d0b72dca45.png",
+    "static/media/cert1.png": "/static/media/cert1.8829f394d99657d02b2e.png",
+    "static/media/java.png": "/static/media/java.22c7a832139207c97d69.png",
+    "static/media/cpp.png": "/static/media/cpp.a03992cb2a84d27d11dc.png",
+    "static/media/cert2.png": "/static/media/cert2.2653a1a4af02093c78b5.png",
+    "static/media/html.png": "/static/media/html.f1d4c0cf6eaf43a28d4c.png",
+    "static/media/css.png": "/static/media/css.c181ec3cf803b1ed581a.png",
+    "static/media/js.png": "/static/media/js.614a5fffd0a9d673e268.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/sql.png": "/static/media/sql.4676ad983d6bd3e9fac9.png",
+    "index.html": "/index.html",
+    "main.b7e7ef59.css.map": "/static/css/main.b7e7ef59.css.map",
+    "main.f962c8e7.js.map": "/static/js/main.f962c8e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7e7ef59.css",
+    "static/js/main.f962c8e7.js"
+  ]
+}
